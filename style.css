@@ -1,1 +1,83 @@
+.main {
+  display: flex;
+}
 
+.calc {
+  background-color: #2196F3;
+  padding: 20px;
+  width: 320px
+}
+
+.panel {
+  display: flex;
+  align-items: stretch;
+}
+
+.num-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.num-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px 30px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.op-container {
+  display: grid;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.op-item {
+  background-color: rgb(243, 164, 73);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.display-num {
+  background-color: rgba(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.clear {
+  background-color: rgb(240, 17, 17);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.equals {
+  background-color: rgb(114, 235, 110);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.operator {
+  padding-left: 30px
+}
+
+.runningTotal {
+  padding-left: 30px
+}
+
+.currentNum {
+  padding-left: 30px
+}
+
+.previousNum {
+  padding-left: 30px
+}
